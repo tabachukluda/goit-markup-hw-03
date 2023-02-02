@@ -113,6 +113,9 @@ body{
     display: flex;
     align-items: center;
 }
+.header-line{
+    border-bottom: 1px solid var(--footer-text-color);
+}
 
 .nav-container{
     display: flex;
@@ -218,10 +221,13 @@ body{
 .teams-list{
     display: flex;
     padding-bottom: 120px;
+    gap: 24px;
 }
 
-.teams-items+.teams-items{
-    padding-left: 24px;
+
+.teams-items{
+    border: 1px solid var(--footer-text-color);
+    border-radius: 0px 0px 4px 4px;
 }
 .item-team{
     padding-top: 32px;
@@ -316,6 +322,7 @@ footer{
 
 .gallery-item{
     padding-top: 32px;
+    border: 1px solid var(--footer-text-color);
 }
 .gallery-subject{
     padding-bottom: 8px;
