@@ -175,7 +175,7 @@ body{
 /*   -------  SECTION common   -------   */
 
 .section-title{
-    padding-bottom: 72px;
+    margin-bottom: 72px;    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -199,14 +199,13 @@ body{
     padding-bottom: 120px;
 }
 .feature{
-    display: flex;
-    
-
+    display: flex; 
+    gap: 24px;
 }
 
 .feature-list{
     margin-bottom: 8px;
-    gap: 24px;
+    
 }
 
 
@@ -217,13 +216,11 @@ body{
 }
 .works-list{
     display: flex;
-    padding-bottom: 120px;
     gap: var(--list-gap);
 }
 
 /*   -------  TEAMS   -------   */
 .teams{
-    padding-top: 120px;
     padding-bottom: 120px;
     background-color: var(--secondary-backgrountd-color);
 }
@@ -234,6 +231,7 @@ body{
 
 
 .teams-items{
+    background-color: var(--white-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -241,7 +239,6 @@ body{
     padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
-    background-color: var(--white-color);
 }
 .teams-subject{
     margin-bottom: 8px;
@@ -313,8 +310,8 @@ footer{
 
 .button-portfo:hover,
 .button-portfo:focus{
+    border-color: transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     color: var(--white-color);
     background-color: var(--secondary-accent-color);
 }
@@ -331,23 +328,24 @@ footer{
 .gallery-list {
     display: flex;
     flex-wrap: wrap;
-    max-width:calc(100%/ 3 -24px);
-    gap: var(--list-gap);
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
-.gallery-item{    
-    border: 1px solid var(--footer-text-color);
+.gallery-item{  
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-left: 1px solid var(--footer-text-color);
+    border-right: 1px solid var(--footer-text-color);
+    border-bottom: 1px solid var(--footer-text-color);
 }
 .gallery-subject{
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     padding-left: 16px;
 }
 
 .gallery-text{
-    margin-left: 16px;
-    margin-bottom: 32px;
-    /*padding-left: 16px;*/
+    padding-left: 16px;
 }
 .gallery-subject{
     /*padding-left: 16px;*/
