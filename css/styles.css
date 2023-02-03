@@ -221,6 +221,7 @@ body{
 
 /*   -------  TEAMS   -------   */
 .teams{
+    padding-top: 120px;
     padding-bottom: 120px;
     background-color: var(--secondary-backgrountd-color);
 }
@@ -335,17 +336,14 @@ footer{
 .gallery-item{  
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
     border-left: 1px solid var(--footer-text-color);
     border-right: 1px solid var(--footer-text-color);
     border-bottom: 1px solid var(--footer-text-color);
 }
 .gallery-subject{
     margin-bottom: 8px;
-    padding-left: 16px;
-}
-
-.gallery-text{
-    padding-left: 16px;
+    
 }
 
 .logo-link{
